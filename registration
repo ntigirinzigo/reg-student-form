@@ -1,0 +1,20 @@
+class Registration:
+    def __init__ (self, name, reg_number, course, access_number):
+        self.name = name
+        self.reg_number = reg_number
+        self.course = course
+        self.access_number = access_number
+
+    def __str__ (self):
+        return (f" Name: {self.name} reg_number: {self.reg_number} course: {self.course} access_number: {self.access_number}")
+
+student1 = Registration ("jean_paul", "s23b13/049", "bsit", "b24335")
+
+print(student1)
+
+student2 = Registration ("liz", "s22b20/102", "dit", "a98449")
+student3 = Registration ("perez", "s23b13/219", "bsit", "b24125")
+student4 = Registration ("david", "s24b13/025", "bsc", "b23211")
+print(student2)
+print(student3)
+print(student4)
